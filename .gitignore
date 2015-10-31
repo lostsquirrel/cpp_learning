@@ -1,0 +1,8 @@
+/Debug/
+/.settings/
+.project
+.cproject
+*.out
+*.o
+*.so
+*.gch
