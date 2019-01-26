@@ -7,16 +7,6 @@
 
 const double pi = 3.141592653589793;
 
-void Circle::GetOrigin(double *x, double *y) {
-    *x = this->x;
-    *y = this->y;
-}
-
-void Circle::SetOrigin(double x, double y) {
-    this->x = x;
-    this->y = y;
-}
-
 double Circle::GetRadius() {
     return this->r;
 }

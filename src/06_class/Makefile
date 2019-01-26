@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-I.
+CFLAGS=-std=c++98
 
 point:
 	$(CC) -c point.h point.cpp point_test.cpp $(CFLAGS)

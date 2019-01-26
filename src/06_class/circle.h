@@ -9,12 +9,19 @@
 
 class Circle {
 public:
-    void GetOrigin(double *x, double *y);
-    void SetOrigin(double x, double y);
     double GetRadius();
     void SetRadius(double r);
     double GetPerimeter();
     double GetArea();
+
+    inline void GetOrigin(double *x, double *y) {
+        *x = this->x;
+        *y = this->y;
+    }
+    inline void SetOrigin(double x, double y) {
+        this->x = x;
+        this->y = y;
+    }
 
 private:
     double x;
