@@ -13,7 +13,7 @@ public:
     void SetOrigin(double x, double y);
     double GetRadius();
     void SetRadius(double r);
-    double GetPerimeter()
+    double GetPerimeter();
     double GetArea();
 
 private:

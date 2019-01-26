@@ -1,5 +1,6 @@
 /Debug/
 /.settings/
+/cmake-build-debug
 .project
 .cproject
 *.out
