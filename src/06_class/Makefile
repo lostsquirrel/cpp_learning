@@ -11,5 +11,10 @@ circle:
 	$(CC) -o circle.bin circle.o circle_test.o
 	./circle.bin
 
+const_demo:
+	$(CC) -c const_demo.h const_demo.cpp const_demo_test.cpp $(CFLAGS)
+	$(CC) -o const_demo.bin const_demo.o const_demo_test.o
+	./const_demo.bin
+
 clean:
 	rm *.o *.bin
