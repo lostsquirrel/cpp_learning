@@ -16,5 +16,10 @@ const_demo:
 	$(CC) -o const_demo.bin const_demo.o const_demo_test.o
 	./const_demo.bin
 
+StaticDemo:
+	$(CC) -c StaticDemo.h StaticDemo.cpp StaticDemoTest.cpp $(CFLAGS)
+	$(CC) -o StaticDemo.bin StaticDemo.o StaticDemoTest.o
+	./StaticDemo.bin
+
 clean:
 	rm *.o *.bin
